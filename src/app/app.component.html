@@ -1,0 +1,6 @@
+<div class="container p-0">
+    <app-header></app-header>
+    <app-newtodo></app-newtodo>
+    <app-all-three (StateEvent)="AllOrSimple($event)"></app-all-three>
+    <app-todolist [todos]="Todos"></app-todolist>
+</div>

@@ -1,0 +1,5 @@
+<div class="w-100 d-flex flex-row flex-wrap justify-content-center mt-3">
+    <input type="text" name="todoInput" id="todoInput" class="w-50 p-2 me-2" [(ngModel)]="todoValue" placeholder="Todo description">
+    <input type="checkbox" name="actionInActive" id="actionInActive" title="Todo active?" class="me-3" [(ngModel)]="actionActive">
+    <button type="submit" class="w-25 border-0 rounded bg-success text-light" (click)="AddTodo()">Add</button>
+</div>
